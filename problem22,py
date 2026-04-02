@@ -1,0 +1,9 @@
+Write a program that performs the following using a compound conditional expression of an if statement.
+# Program to check if a number is between 10 and 50
+
+num = int(input("Enter a number: "))
+
+if num >= 10 and num <= 50:
+    print("Number is between 10 and 50")
+else:
+    print("Number is outside the range")
